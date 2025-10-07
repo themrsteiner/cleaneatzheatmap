@@ -1,21 +1,20 @@
-brand,name,addr:housenumber,addr:street,addr:city,addr:state,addr:postcode,phone,website,lat,lon,coming_soon,source_url
-ProteinHouse,,3141,E. Indian School Rd Suite#111,Phoenix,AZ,85016,,https://www.protein-house.com,,,,https://www.protein-house.com/location/proteinhouse-arcadia-az/
-ProteinHouse,,1615,Burnt Boat Dr,Bismarck,ND,58503,,https://www.protein-house.com,,,,https://www.protein-house.com/location/proteinhouse-bismarck-nd/
-ProteinHouse,,11801,Hickman Rd #300,Urbandale,IA,50323,,https://www.protein-house.com,,,,https://www.protein-house.com/location/proteinhouse-des-moines-ia/
-ProteinHouse,,,,,,,,https://www.protein-house.com,,,,https://www.protein-house.com/location/proteinhouse-express/
-ProteinHouse,,3097,E Pecos Road Suite 106,Gilbert,AZ,85295,,https://www.protein-house.com,,,,https://www.protein-house.com/location/proteinhouse-gilbert-az/
-ProteinHouse,,1047,Pearson Drive,Hudson,WI,54016,,https://www.protein-house.com,,,,https://www.protein-house.com/location/proteinhouse-hudson-wi/
-ProteinHouse,,1345,Main St,Kansas City,MO,64105,,https://www.protein-house.com,,,,https://www.protein-house.com/location/proteinhouse-kansas-city-mo/
-ProteinHouse,,9555,S Eastern Ave Suite 125,Las Vegas,NV,89123,,https://www.protein-house.com,,,,https://www.protein-house.com/location/proteinhouse-las-vegas-nv/
-ProteinHouse,,90D,Apex Drive,Marlborough,MA,01752,,https://www.protein-house.com,,,,https://www.protein-house.com/location/proteinhouse-marlborough-ma/
-ProteinHouse,,5800,N 10th St,McAllen,TX,78504,,https://www.protein-house.com,,,,https://www.protein-house.com/location/proteinhouse-mcallen-tx/
-ProteinHouse,,4800,Dale Rd,Modesto,CA,95356,,https://www.protein-house.com,,,,https://www.protein-house.com/location/proteinhouse-modesto-ca/
-ProteinHouse,,8680,High Pointe Dr suite H,Newburgh,IN,47630,,https://www.protein-house.com,,,,https://www.protein-house.com/location/proteinhouse-newburgh-in/
-ProteinHouse,,6801,W. 135th Street,Overland Park,KS,66223,,https://www.protein-house.com,,,,https://www.protein-house.com/location/proteinhouse-overland-park-ks/
-ProteinHouse,,5310,"E High Street, Suite 107",Phoenix,AZ,85054,,https://www.protein-house.com,,,,https://www.protein-house.com/location/proteinhouse-phoenix-az/
-ProteinHouse,,1735,Arden Wy,Sacramento,CA,95815,,https://www.protein-house.com,,,,https://www.protein-house.com/location/proteinhouse-sacramento-ca/
-ProteinHouse,,12016,Alamo  Ranch Pkwy,San Antonio,TX,78253,,https://www.protein-house.com,,,,https://www.protein-house.com/location/proteinhouse-san-antonio-tx/
-ProteinHouse,,7077,E. Mayo Blvd Suite B-100,Scottsdale,AZ,85054,,https://www.protein-house.com,,,,https://www.protein-house.com/location/proteinhouse-scottsdale-az/
-ProteinHouse,,207,N Meridian Ave,Tampa,FL,33602,,https://www.protein-house.com,,,,https://www.protein-house.com/location/proteinhouse-tampa-fl/
-ProteinHouse,,947,S Mill Ave #105,Tempe,AZ,85281,,https://www.protein-house.com,,,,https://www.protein-house.com/location/proteinhouse-tempe-az/
-ProteinHouse,,1858,Countryside Drive,Turlock,CA,95380,,https://www.protein-house.com,,,,https://www.protein-house.com/location/proteinhouse-turlock-ca/
+brand,name,num,street,city,state,zipc,phone,website,lat,lon,coming_soon,source_url,@lat,@lon
+ProteinHouse,,3141,E. Indian School Rd Suite#111,Phoenix,AZ,85016,,https://www.protein-house.com,,,,https://www.protein-house.com/location/proteinhouse-arcadia-az/,,
+ProteinHouse,,1615,Burnt Boat Dr,Bismarck,ND,58503,,https://www.protein-house.com,,,,https://www.protein-house.com/location/proteinhouse-bismarck-nd/,46.8301734,-100.8197091
+ProteinHouse,,11801,Hickman Rd #300,Urbandale,IA,50323,,https://www.protein-house.com,,,,https://www.protein-house.com/location/proteinhouse-des-moines-ia/,41.6175181,-93.7781172
+ProteinHouse,,3097,E Pecos Road Suite 106,Gilbert,AZ,85295,,https://www.protein-house.com,,,,https://www.protein-house.com/location/proteinhouse-gilbert-az/,,
+ProteinHouse,,1047,Pearson Drive,Hudson,WI,54016,,https://www.protein-house.com,,,,https://www.protein-house.com/location/proteinhouse-hudson-wi/,44.9588065,-92.7208431
+ProteinHouse,,1345,Main St,Kansas City,MO,64105,,https://www.protein-house.com,,,,https://www.protein-house.com/location/proteinhouse-kansas-city-mo/,39.0975813,-94.5831261
+ProteinHouse,,9555,S Eastern Ave Suite 125,Las Vegas,NV,89123,,https://www.protein-house.com,,,,https://www.protein-house.com/location/proteinhouse-las-vegas-nv/,,
+ProteinHouse,,90D,Apex Drive,Marlborough,MA,1752,,https://www.protein-house.com,,,,https://www.protein-house.com/location/proteinhouse-marlborough-ma/,42.3388353,-71.5884271
+ProteinHouse,,5800,N 10th St,McAllen,TX,78504,,https://www.protein-house.com,,,,https://www.protein-house.com/location/proteinhouse-mcallen-tx/,26.2567748,-98.219661
+ProteinHouse,,4800,Dale Rd,Modesto,CA,95356,,https://www.protein-house.com,,,,https://www.protein-house.com/location/proteinhouse-modesto-ca/,37.7095125,-121.0500071
+ProteinHouse,,8680,High Pointe Dr suite H,Newburgh,IN,47630,,https://www.protein-house.com,,,,https://www.protein-house.com/location/proteinhouse-newburgh-in/,,
+ProteinHouse,,6801,W. 135th Street,Overland Park,KS,66223,,https://www.protein-house.com,,,,https://www.protein-house.com/location/proteinhouse-overland-park-ks/,38.8836597,-94.6647583
+ProteinHouse,,5310,"E High Street, Suite 107",Phoenix,AZ,85054,,https://www.protein-house.com,,,,https://www.protein-house.com/location/proteinhouse-phoenix-az/,,
+ProteinHouse,,1735,Arden Wy,Sacramento,CA,95815,,https://www.protein-house.com,,,,https://www.protein-house.com/location/proteinhouse-sacramento-ca/,38.5975784,-121.4228264
+ProteinHouse,,12016,Alamo  Ranch Pkwy,San Antonio,TX,78253,,https://www.protein-house.com,,,,https://www.protein-house.com/location/proteinhouse-san-antonio-tx/,29.4855914,-98.7125932
+ProteinHouse,,7077,E. Mayo Blvd Suite B-100,Scottsdale,AZ,85054,,https://www.protein-house.com,,,,https://www.protein-house.com/location/proteinhouse-scottsdale-az/,,
+ProteinHouse,,207,N Meridian Ave,Tampa,FL,33602,,https://www.protein-house.com,,,,https://www.protein-house.com/location/proteinhouse-tampa-fl/,27.9495401,-82.448757
+ProteinHouse,,947,S Mill Ave #105,Tempe,AZ,85281,,https://www.protein-house.com,,,,https://www.protein-house.com/location/proteinhouse-tempe-az/,,
+ProteinHouse,,1858,Countryside Drive,Turlock,CA,95380,,https://www.protein-house.com,,,,https://www.protein-house.com/location/proteinhouse-turlock-ca/,37.5094134,-120.8757645
