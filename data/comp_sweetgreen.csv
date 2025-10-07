@@ -1,0 +1,157 @@
+osm_type,osm_id,name,brand,operator,amenity,shop,leisure,office,cuisine,takeaway,delivery,addr:housenumber,addr:street,addr:city,addr:state,addr:postcode,phone,website,lat,lon
+way,28594148,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,1890,Shattuck Avenue,Berkeley,CA,,510-990-8262,https://order.sweetgreen.com/berkeley/menu,37.8739991,-122.2688574
+node,11737926274,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,1875,South Bascom Avenue,Campbell,CA,95008,+1-831-318-7251,https://www.sweetgreen.com/,37.2885573,-121.9329434
+way,133234608,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,581,Ramona Street,Palo Alto,CA,94301,,https://www.sweetgreen.com/,37.4447093,-122.1609769
+node,11268560834,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,10562,Craftsman Way,San Diego,CA,92127,,,33.0195527,-117.1105496
+node,5458181080,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,1343,4th Street,Santa Monica,CA,90401,+1-424-744-8321,https://www.sweetgreen.com/,34.0169375,-118.495511
+node,13032502702,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,20929,Ventura Boulevard,Woodland Hills,CA,91364,,,34.1666776,-118.5891453
+node,12717254738,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,2770,South Colorado Boulevard,Denver,CO,80222,+1-720-734-6473,,39.6661363,-104.9399214
+node,12310859589,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,3985,Tennyson Street,Denver,CO,80212,,,39.7727596,-105.0442435
+way,812551274,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,1750,Wewatta Street,Denver,CO,80202,,,39.7542283,-105.0009407
+node,3710986602,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,1212,4th Street Southeast,Washington,DC,20003,,,38.8751204,-77.0002718
+node,3000023676,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,2221,I Street Northwest,Washington,DC,20037,,,38.9009587,-77.0497296
+node,2180030515,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,1901,L Street Northwest,Washington,DC,20036,,,38.9039435,-77.0438832
+node,3099875496,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,2238,M Street Northwest,Washington,DC,20037,,,38.9051079,-77.0495276
+node,3008727681,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,no,1471,P Street Northwest,Washington,DC,20005,+1 202-234-7336,https://www.sweetgreen.com/,38.9098132,-77.0339893
+node,2527022948,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,221,Pennsylvania Avenue Southeast,Washington,DC,20003,+1 202-547-9338,https://sweetgreen.com/,38.8870475,-77.0026986
+node,2402694703,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,1325,W Street Northwest,Washington,DC,20009,+1 202-506-2956,https://sweetgreen.com/,38.91932,-77.0313431
+node,11336950638,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,2621,Northwest 2nd Avenue,Miami,FL,33127,+1-305-614-9007,https://order.sweetgreen.com/wynwood/menu,25.8016774,-80.1989806
+node,2390850324,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,yes,1201,Peachtree Street Northeast,,GA,30361,+1 770-766-1600,https://order.sweetgreen.com/14th-peachtree/menu,33.7877111,-84.3833018
+node,8510829573,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,1520,East 53rd Street,Chicago,IL,60615,,https://sweetgreen.com,41.7996983,-87.5889546
+node,9219692852,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,5400,North Clark Street,Chicago,IL,60640,,https://order.sweetgreen.com,41.9799664,-87.6684584
+node,12066816705,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,1471,North Milwaukee Avenue,Chicago,IL,60622,,,41.9086886,-87.6746017
+node,12710607850,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,3601,North Southport Avenue,Chicago,IL,60613,,,41.9472168,-87.663808
+node,5458146194,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,623,North State Street,Chicago,IL,60654,+1-312-374-8173,https://www.sweetgreen.com/,41.8931411,-87.6278662
+node,8743665981,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,900,West North Avenue,Chicago,IL,60642,,,41.9114684,-87.6507599
+node,11272453395,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,1000,West Randolph Street,Chicago,IL,60607,,,41.8845523,-87.6524414
+node,12580977430,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,20530,Rand Road,Deer Park,IL,60047,,https://www.sweetgreen.com/,42.1619018,-88.0534863
+node,12365650086,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,775,North Waukegan Road,Deerfield,IL,60015,,,42.1666658,-87.8452427
+node,2282784638,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,1601,Sherman Avenue,Evanston,IL,60201,+1-847-892-1700,https://www.sweetgreen.com/,42.0471443,-87.6816348
+way,201476634,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,225,South Main Street,Naperville,IL,60540,,,41.772359,-88.1499309
+node,7499693357,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,yes,659,Boylston Street,Boston,MA,02116,+1-617-936-3464,https://order.sweetgreen.com/back-bay/menu,42.3499713,-71.0786511
+node,7777144264,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,800,Boylston Street,Boston,MA,02199,+1-857-753-4982,https://order.sweetgreen.com/prudential-center/menu,42.3469126,-71.0833375
+node,7683106105,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,132,Brookline Avenue,Boston,MA,02215,+1-857-233-2673,https://order.sweetgreen.com/fenway/menu,42.3449449,-71.1006972
+node,4406184596,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,300,Cambridge Street,Boston,MA,02114,,,42.3609942,-71.0683995
+node,9964684740,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,225,Franklin Street,Boston,MA,02210,+1-617-648-5500,https://order.sweetgreen.com/post-office-square/menu,42.3563484,-71.0539211
+node,9523370197,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,360,Longwood Avenue,Boston,MA,02215,+1 781 653 6600,https://order.sweetgreen.com,42.3389078,-71.1073866
+node,5749774093,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,15,School Street,Boston,MA,,+1 857 317 4949,https://order.sweetgreen.com/,42.3576068,-71.0588177
+node,6551565572,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,87,Summer Street,Boston,MA,02110,+16178704700,https://order.sweetgreen.com/,42.3539018,-71.05857
+node,11543746984,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,201,Galileo Galilei Way,Cambridge,MA,02142,,,42.3649341,-71.089081
+node,7100193728,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,39,John F. Kennedy Street,Cambridge,MA,02138,+16179413400,https://www.sweetgreen.com,42.3728716,-71.1200734
+node,1091595502,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,4831,Bethesda Avenue,Bethesda,MD,20814,,https://sweetgreen.com/,38.9810619,-77.0969877
+node,6573548978,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,8300,Baltimore Avenue,College Park,MD,20740,+1--240-770-4443,https://www.sweetgreen.com/,38.9922712,-76.9335839
+node,9524802584,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,1,East Joppa Road,Towson,MD,21286,+14102206900,https://order.sweetgreen.com/,39.4013558,-76.6019237
+node,2742714806,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,311,South State Street,Ann Arbor,MI,48104,+17346009030,https://www.sweetgreen.com/,42.2789335,-83.7406535
+node,10674920907,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,167,North Old Woodward Avenue,Birmingham,MI,48009,,,42.5470201,-83.2149117
+node,945574884,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,615,Southeast Washington Avenue,Minneapolis,MN,55414,,https://www.sweetgreen.com/,44.9739642,-93.2300642
+node,12084013219,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,17,Artisan Drive,Salem,NH,03079,+1 603 912 2670,,42.7718436,-71.2262941
+node,6534166846,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,127,Court Street,Brooklyn,NY,11201,+1-347-767-6800,https://order.sweetgreen.com/court-atlantic/menu,40.6899213,-73.9920718
+node,9130653630,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,100,Willoughby Street,Brooklyn,NY,11201,+1-646-916-3162,https://order.sweetgreen.com/downtown-brooklyn/menu,40.6919962,-73.9845653
+node,2569887980,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,106-24,71st Avenue,Forest Hills,NY,11375,,https://www.sweetgreen.com/,40.7199987,-73.8447148
+node,10693690443,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,25-35,44th Drive,Long Island City,NY,11101,+1-929-470-2030,https://order.sweetgreen.com/long-island-city/menu,40.7474269,-73.9425436
+node,2723751143,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,1321,1st Avenue,New York,NY,10021,,https://www.sweetgreen.com/,40.7670985,-73.9567312
+node,2745436362,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,311,Amsterdam Avenue,New York,NY,10023,,,40.780345,-73.9801482
+node,4300138589,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,yes,1164,Broadway,New York,NY,10001,+1 646 449 8884,https://order.sweetgreen.com/nomad/,40.7448058,-73.9886256
+node,11521280860,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,2460,Broadway,New York,NY,10025,+1-917-934-3200,https://order.sweetgreen.com/91st-broadway/menu,40.7914554,-73.9737671
+node,626013381,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,2937,Broadway,New York,NY,10025,+1-917-675-6616,https://order.sweetgreen.com/columbia-u/menu,40.8073542,-73.9647166
+node,8787410957,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,159,Columbus Avenue,New York,NY,10023,,,40.7743806,-73.9807521
+node,11704876923,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,yes,155,East 44th Street,New York,NY,10017,+1-646-982-0900,https://order.sweetgreen.com/44th-3rd/menu?target=35,40.752375,-73.9739586
+node,6397326468,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,10,Hudson Yards,New York,NY,10001,+1 646-832-4350,https://order.sweetgreen.com/hudson-yards/menu,40.7526876,-74.0011152
+node,11068933488,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,599,Lexington Avenue,New York,NY,10022,+1-646-956-2700,https://order.sweetgreen.com/52nd-lex/menu,40.7578318,-73.971131
+node,11872859723,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,West 42nd Street,New York,NY,,,,40.7545974,-73.9830893
+node,11554649659,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,58,Coulter Avenue,Ardmore,PA,19003,+1-610-642-9400,https://www.sweetgreen.com/locations,40.0077702,-75.2878213
+node,2107713539,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,3925,Walnut Street,Philadelphia,PA,19104,+1-215-286-1365,https://sweetgreen.com,39.9540663,-75.2011902
+node,511117188,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,223,East Lancaster Avenue,Wayne,PA,19087,+1 215-398-1269,https://order.sweetgreen.com/wayne/menu,40.0441381,-75.3831088
+node,10710907611,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,1900,Aldrich Street,Austin,TX,78723,+1-737-377-3825,https://www.sweetgreen.com/,30.2984993,-97.7050022
+way,366244320,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,2234,Guadalupe Street,Austin,TX,78705,+1 737-255-8800,https://order.sweetgreen.com/the-drag,30.2857573,-97.7421105
+node,11804005342,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,5280,Belt Line Road,Dallas,TX,75254,,https://www.sweetgreen.com/,32.9537424,-96.8187477
+node,10674600821,Sweetgreen,Sweetgreen,,restaurant,,,,salad,,,3636,McKinney Avenue,Dallas,TX,75204,,https://sweetgreen.com,32.8075112,-96.797088
+node,8474060326,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,2551,Amherst Street,Houston,TX,77005,+1-832-720-7500,https://www.sweetgreen.com/,29.7156942,-95.4174958
+node,9413557594,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,600,North Shepherd Drive,Houston,TX,,,,29.7821214,-95.4082748
+node,12092094842,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,1111,East Southlake Boulevard,Southlake,TX,76092,,https://order.sweetgreen.com/southlake,32.9406236,-97.1347349
+node,9655030674,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,823,King Street,Alexandria,VA,22314,+1 571-319-0192,https://order.sweetgreen.com/old-town/menu,38.8054372,-77.049037
+node,9044218519,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,575,12th Street South,Arlington,VA,22202,+1 703-888-1025,https://order.sweetgreen.com/pentagon-city/,38.8625366,-77.0562547
+node,5212781428,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,3100,Clarendon Boulevard,Arlington,VA,22201,+1 571-290-3956,https://www.sweetgreen.com/,38.88648,-77.0954427
+node,3654956600,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,4075,Wilson Boulevard,Arlington,VA,22203,+1-703-522-2016,https://order.sweetgreen.com/ballston/menu,38.8801308,-77.108586
+node,2294778222,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,2905,District Avenue,Fairfax,VA,22031,+1 703-992-7892,https://order.sweetgreen.com/mosaic/menu,38.8723961,-77.2287521
+node,3884180052,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,6707,Old Dominion Drive,McLean,VA,22101,,,38.9331422,-77.1760328
+node,11231124972,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,1824,Library Street,Reston,VA,20190,+1-571-203-0082,,38.9581596,-77.3587438
+way,1365269631,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,11900,Northeast Village Plaza,Kirkland,WA,98034,+1-425-403-2998,https://order.sweetgreen.com/totem-lake/menu,47.7126005,-122.1813827
+node,12254179752,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,1530,11th Avenue,Seattle,WA,98122,+1-253-499-8563,https://order.sweetgreen.com/11th-pine/menu,47.6151088,-122.3179752
+node,6030952686,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,801,Lenora Street,,WA,,,,47.6164977,-122.3376528
+way,1430656019,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,652,State Street,Madison,WI,53703,,,43.0751573,-89.3965373
+node,11359233169,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,300,East Buffalo Street,Milwaukee,WI,53202,+1-414-250-0205,https://order.sweetgreen.com/third-ward/menu,43.0340252,-87.9070459
+node,1305395333,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,1601,Pearl Street,Boulder,,80302,,https://www.sweetgreen.com,40.0191275,-105.274653
+way,793720071,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,606,1st Avenue,New York,,10016,+1-917-810-5800,https://order.sweetgreen.com/murray-hill/menu,40.7441899,-73.9728706
+node,4300127190,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,413,Greenwich Street,New York,,10013,,,40.7213348,-74.0097675
+node,2328402797,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,831,Broadway,Oakland,,94612,,,37.8008281,-122.273632
+node,266671569,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,300,West El Camino Real,Sunnyvale,,94087,+1 415 7379900,https://order.sweetgreen.com/sunnyvale/menu,37.3683134,-122.0354375
+way,266926747,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,1500,3rd Avenue,,,10028,+1 646-666-0860,https://order.sweetgreen.com/85th-3rd/menu,40.7780282,-73.9549214
+node,11829015570,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,1304,4th Street Northeast,,,20002,+1 202-891-5954,https://order.sweetgreen.com/union-market/menu,38.9094074,-76.9991733
+node,2562454119,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,226,Bleecker Street,,,10014,,,40.7299618,-74.0024288
+node,8858911295,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,440,Castro Street,,,,+1-650-753-7300,,37.3908565,-122.08114
+node,2419110693,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,624,E Street Northwest,,,20004,+1 202-804-2250,https://order.sweetgreen.com/penn-quarter/menu,38.8959797,-77.021445
+node,6680686157,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,137,East 61st Street,,,10065,+1 646-859-1300,https://order.sweetgreen.com/61st-lex/menu,40.76368,-73.9674808
+node,10995829824,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,20347,Exchange Street,,,,,,39.0531168,-77.4544472
+node,4300138689,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,yes,100,Kenmare Street,,,10012,+1 646-964-6012,https://order.sweetgreen.com/nolita/menu,40.7211727,-73.9970047
+node,11984283672,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,1800,North Lynn Street,,,,+1 703 372 9009,https://order.sweetgreen.com/rosslyn/menu,38.8963344,-77.0710177
+node,11712056494,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,4320,Riverside Drive,,,,+1 818-740-5200,https://sweetgreen.com,34.1520055,-118.347359
+node,9986922190,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,3200,Sepulveda Boulevard,,,,,,33.8983657,-118.3941905
+node,10733831107,Sweetgreen,Sweetgreen,,fast_food,,,,salad;fish;Bowls,yes,,3925,Sunset Boulevard,,,90029,+1 323-870-6800,https://order.sweetgreen.com/silver-lake,34.0925368,-118.2801522
+node,5726015580,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,101,University Place,,,10003,,,40.7339919,-73.9925385
+node,4846152821,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,67,Wall Street,,,10005,+1-212-487-9030,https://order.sweetgreen.com/wall-street/menu,40.7056103,-74.0082609
+node,3908803756,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,3070,Washtenaw Avenue,,,,,,42.256724,-83.6979354
+node,5021324222,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,West 3rd Street,,,,,,34.0722015,-118.365058
+node,5338488657,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,34.0505562,-118.254112
+node,6770988481,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,33.9790825,-118.438232
+node,8300188874,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,34.0713172,-118.343807
+node,9307471061,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,34.0602033,-118.4462156
+node,9371481393,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,34.0581841,-118.417494
+node,10068030358,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,34.0539143,-118.465285
+node,10170149789,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,34.1593786,-118.8205876
+node,10270352163,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,34.0500837,-118.254343
+node,10683754073,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,34.145659,-118.1379677
+node,10773902299,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,33.8342161,-118.3512293
+node,11128905448,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,33.9792145,-118.4383352
+node,11315873177,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,34.1115438,-117.5342361
+node,11359355883,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,37.7895948,-122.3918816
+node,11957650946,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,32.8726568,-117.2086856
+node,12146940529,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,32.9504198,-117.2331997
+node,13115603139,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,37.5633165,-122.3259499
+way,893442179,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,34.0273195,-118.3875939
+node,3242027656,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,41.3109145,-72.9300638
+node,10686316368,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,+1-202-387-9338,https://sweetgreen.com/,38.9104394,-77.044214
+way,1335713051,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,26.7073678,-80.0574736
+node,12177511392,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,33.7715346,-84.3668407
+node,9380966171,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,41.8484449,-87.9528498
+node,10739372715,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,41.9250636,-87.6479875
+node,10945307450,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,41.8784593,-87.6358149
+node,11916860648,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,41.9266209,-87.7037116
+node,12272461293,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,41.8849883,-87.6247669
+node,12806342954,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,39.7710614,-86.1548548
+node,3934945757,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,39.284474,-76.598552
+node,11164934580,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,39.0505829,-77.1172075
+way,1233227187,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,39.1153353,-77.2066683
+node,4972426424,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,42.5168261,-71.0355947
+node,7689627185,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,42.3003032,-71.2921904
+node,12085299557,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,42.2319334,-71.1773674
+node,12164557870,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,44.9852863,-93.271692
+node,12691291373,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,44.9402991,-93.1311293
+node,9659314880,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,40.7150442,-74.0341424
+node,11225615372,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,40.8136624,-74.2175472
+node,2546985529,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,40.7264799,-73.9914802
+node,2712067239,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,+1-929-552-2850,https://order.sweetgreen.com/park-slope,40.679757,-73.9746614
+node,6681888951,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,40.7029088,-73.9897892
+node,8769344317,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,40.7154591,-74.0088142
+node,8785244238,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,https://www.sweetgreen.com,40.7652451,-73.9817646
+node,12861779392,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,35.2274448,-80.8430586
+node,10679432873,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,https://order.sweetgreen.com/10th-walnut,39.9483406,-75.1571253
+node,10856271482,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,41.7603782,-71.4589026
+node,10073245911,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,30.2649271,-97.7456432
+node,5640147127,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,38.8544172,-77.0496493
+node,8492111452,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,38.924718,-77.2248474
+node,11238675673,Sweetgreen,Sweetgreen,,fast_food,,,,salad,yes,,,,,,,,,38.8724196,-77.2288249
+node,4837099605,sweetgreen,sweetgreen,,,,,,,,,,,,,,,,40.8136554,-74.217558
+way,219170376,,,Sweetgreen,parking,,,,,,,,,,,,,,37.8740491,-122.2689375
+node,12178839602,Sweetgreen,,,restaurant,,,,beef_bowl;chicken;fish,,,Unit 124,Rock Rose Avenue,,,78758,+1 (737) 209-5749,https://order.sweetgreen.com/,30.4006129,-97.7228063
+node,5264640777,sweetgreen,,,restaurant,,,,,,,15090,Kensington Park Drive,Tustin,CA,92782,,,33.7112419,-117.818202
