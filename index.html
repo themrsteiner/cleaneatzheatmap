@@ -2,29 +2,36 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>Gyms + Clean Eatz</title>
+  <title>Clean Eatz Expansion Thesis: Market Gaps</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-          integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+          integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin></script>
   <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
 
   <style>
     html, body, #map { height: 100%; margin: 0; }
 
-    /* Right-side boxes: hug content */
-    .layer-toggles { position:absolute; z-index:1000; top:14px; right:14px; background:#fff; border:1px solid #ccc; border-radius:10px; padding:8px 10px; font:12px/1.2 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; box-shadow:0 2px 8px rgba(0,0,0,.08); display:inline-block; width:max-content; }
+    /* Header */
+    .app-header { position:fixed; top:0; left:0; right:0; height:48px; background:#111827; color:#fff;
+      display:flex; align-items:center; padding:0 14px; z-index:1200; box-shadow:0 2px 8px rgba(0,0,0,.2); }
+    .app-header .title { font:600 14px/1.2 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; letter-spacing:.2px; }
+
+    /* Move Leaflet zoom controls down below header (match Layers box top) */
+    .leaflet-top.leaflet-left { top: 62px; }
+
+    /* Controls — pushed below header */
+    .layer-toggles { position:absolute; z-index:1000; top:62px; right:14px; background:#fff; border:1px solid #ccc; border-radius:10px; padding:8px 10px; font:12px/1.2 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; box-shadow:0 2px 8px rgba(0,0,0,.08); display:inline-block; width:max-content; }
     .layer-toggles label { display:flex; align-items:center; gap:6px; margin:6px 0; white-space:nowrap; }
     .dot { width:10px; height:10px; border-radius:50%; display:inline-block; }
     .dot-red { background:#e11d48; }
     .dot-yellow { background:#facc15; border:1px solid #000; box-sizing:border-box; border-radius:50%; }
     .swatch-rainbow { width:14px; height:10px; border-radius:2px; border:1px solid #999; display:inline-block; background:linear-gradient(90deg,#ff004c,#ff7a00,#ffd400,#27c93f,#1e90ff,#7a5cff,#b832ff); }
 
-    /* Subtract panel sits below layers and hugs content */
-    .subtract-panel { position:absolute; z-index:1000; top:120px; right:14px; background:#fff; border:1px solid #ccc; border-radius:10px; padding:10px 12px; font:12px/1.2 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; box-shadow:0 2px 8px rgba(0,0,0,.08); display:inline-block; width:max-content; }
+    .subtract-panel { position:absolute; z-index:1000; top:168px; right:14px; background:#fff; border:1px solid #ccc; border-radius:10px; padding:10px 12px; font:12px/1.2 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; box-shadow:0 2px 8px rgba(0,0,0,.08); display:inline-block; width:max-content; }
     .subtract-panel .title { font-weight:600; margin-bottom:6px; }
     .subtract-panel label { display:flex; align-items:center; gap:6px; margin:6px 0; white-space:nowrap; }
 
@@ -36,26 +43,28 @@
     .readout { margin-top:4px; font-size:13px; }
     .slider-box { display:flex; align-items:center; justify-content:center; padding:10px; width:50px; }
     .vslider { writing-mode:bt-lr; -webkit-appearance:slider-vertical; width:10px; height:180px; }
-    input[type="range"].vslider::-webkit-slider-thumb { -webkit-appearance:none; width:18px; height:18px; border-radius:50%; background:#111; }
-    input[type="range"].vslider::-moz-range-thumb { width:18px; height:18px; border-radius:50%; background:#111; border:none; }
+    input[type=range].vslider::-webkit-slider-thumb { -webkit-appearance:none; width:18px; height:18px; border-radius:50%; background:#111; }
+    input[type=range].vslider::-moz-range-thumb { width:18px; height:18px; border-radius:50%; background:#111; border:none; }
   </style>
 </head>
 <body>
 <div id="map"></div>
 
+<div class="app-header"><div class="title">Clean Eatz Expansion Thesis: Market Gaps beta0.2</div></div>
+
 <!-- Layers (visibility only) -->
 <div class="layer-toggles">
   <strong>Layers</strong>
-  <label><input id="toggle-gyms" type="checkbox" checked /> <span class="swatch-rainbow"></span> Gyms</label>
-  <label><input id="toggle-ce"   type="checkbox" checked /> <span class="dot dot-red"></span> Clean Eatz</label>
-  <label><input id="toggle-competitors" type="checkbox" /> <span class="dot dot-yellow"></span> Competitors</label>
+  <label><input id="toggle-gyms" type="checkbox" checked> <span class="swatch-rainbow"></span> Gyms</label>
+  <label><input id="toggle-ce"   type="checkbox" checked> <span class="dot dot-red"></span> Clean Eatz</label>
+  <label><input id="toggle-competitors" type="checkbox"> <span class="dot dot-yellow"></span> Competitors</label>
 </div>
 
 <!-- Subtractive controls (math only) -->
 <div class="subtract-panel">
   <div class="title">Subtract from heat</div>
-  <label><input id="sub-ce" type="checkbox" checked /> Clean Eatz</label>
-  <label><input id="sub-comps" type="checkbox" /> Competitors</label>
+  <label><input id="sub-ce" type="checkbox" checked> Clean Eatz</label>
+  <label><input id="sub-comps" type="checkbox"> Competitors</label>
 </div>
 
 <!-- Bottom-right slider + readout -->
@@ -65,33 +74,49 @@
     <div class="readout"><span id="miles-readout">25</span> mi</div>
   </div>
   <div class="box slider-box">
-    <input id="dist-slider" class="vslider" type="range" min="0" max="100" step="1" value="25" />
+    <input id="dist-slider" class="vslider" type="range" min="0" max="100" step="1" value="25">
   </div>
 </div>
 
 <script>
+// Data files (no Just Salad)
 const DATASETS = {
   gyms: 'data/gyms.csv',
   cleanEatz: 'data/clean_eatz.csv',
   sweetgreen: 'data/comp_sweetgreen.csv',
-  justsalad: 'data/comp_just_salad.csv',
   bolay: 'data/comp_bolay.csv',
   vitality: 'data/comp_vitality_bowls.csv',
   protein: 'data/comp_proteinhouse.csv'
 };
-const COMP_KEYS = ['sweetgreen','justsalad','bolay','vitality','protein'];
+const COMP_KEYS = ['sweetgreen','bolay','vitality','protein'];
+
+// cache-buster
+const CB = Date.now();
+function cb(url){ return url + (url.includes('?') ? '&' : '?') + 'v=' + CB; }
+const FETCH_OPTS = { cache: 'no-store' };
+
 const HEAT_POINT_WEIGHT = 0.9;
 const HEAT_OPTIONS = { radius: 14, blur: 16, maxZoom: 11, minOpacity: 0.28 };
 
 const map = L.map('map', { preferCanvas:true }).setView([39.5, -98.35], 4);
 L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', { attribution: '&copy; OpenStreetMap &copy; CARTO', maxZoom: 18 }).addTo(map);
 
-// Competitor points pane (always above heat + CE logos)
+// Pane so competitor points sit above heat + CE logos
 map.createPane('competitorPane');
 map.getPane('competitorPane').style.zIndex = 660;
 
-function pickLat(row){ return row['@lat'] ?? row['lat'] ?? row['latitude'] ?? row['y'] ?? null; }
-function pickLon(row){ return row['@lon'] ?? row['lon'] ?? row['lng'] ?? row['longitude'] ?? row['x'] ?? null; }
+// Field detection (prefers @lat/@lon)
+const LAT_KEYS = ['@lat','lat','latitude','y','Lat','Latitude','Y'];
+const LON_KEYS = ['@lon','lon','lng','long','longitude','x','Lng','Long','Longitude','X'];
+const NAME_KEYS = ['name','Name','location','store','restaurant','brand','label','title'];
+
+function valForKeys(row, keys){ for(const k of keys){ if(row[k] !== undefined) return row[k]; } const lower=Object.create(null); for(const k in row){ lower[k.toLowerCase()] = k; } for(const k of keys){ const hit=lower[k.toLowerCase()]; if(hit) return row[hit]; } return undefined; }
+function numberFrom(v){ if(v==null) return null; if(typeof v==='number') return Number.isFinite(v)?v:null; if(typeof v==='string'){ const n=Number(v.trim().replace(/,/g,'.')); return Number.isFinite(n)?n:null;} return null; }
+function pickLat(row){ return numberFrom(valForKeys(row, LAT_KEYS)); }
+function pickLon(row){ return numberFrom(valForKeys(row, LON_KEYS)); }
+function pickName(row, fallback){ const v=valForKeys(row, NAME_KEYS); const s=(v==null?'':String(v)).trim(); return s || (fallback||''); }
+
+// Distance
 const R_EARTH_MI = 3958.7613; const toRad=d=>d*Math.PI/180;
 function haversineMi(aLat,aLon,bLat,bLon){ const dLat=toRad(bLat-aLat), dLon=toRad(bLon-aLon); const s1=Math.sin(dLat/2)**2; const s2=Math.cos(toRad(aLat))*Math.cos(toRad(bLat))*Math.sin(dLon/2)**2; return 2*R_EARTH_MI*Math.asin(Math.sqrt(s1+s2)); }
 
@@ -102,21 +127,24 @@ const CE_ICON_SIZE = [22,22];
 const ceIcon = L.icon({ iconUrl:'data/logo_cek.png', iconSize:CE_ICON_SIZE, iconAnchor:[CE_ICON_SIZE[0]/2, CE_ICON_SIZE[1]/2] });
 
 const compMasterLayer = L.layerGroup();
-const compSublayers = {}; // key -> LayerGroup
-const subtractCache = {};                 // key -> [{lat,lon,name?}]
+const compSublayers = {};   // key -> LayerGroup
+const subtractCache = {};   // key -> [{lat,lon,name}]
 const activeSubtractors = new Set(['cleanEatz']); // CE subtracts by default
 
-async function loadCsv(url){ const res=await fetch(url,{cache:'force-cache'}); if(!res.ok) throw new Error('HTTP '+res.status+' for '+url); const text=await res.text(); const p=Papa.parse(text,{header:true,dynamicTyping:true,skipEmptyLines:true}); return p.data; }
+async function loadCsv(url){ const res=await fetch(cb(url), FETCH_OPTS); if(!res.ok) throw new Error('HTTP '+res.status+' for '+url); const text=await res.text(); const p=Papa.parse(text,{header:true,dynamicTyping:true,skipEmptyLines:true}); return p.data; }
 
-function drawCleanEatz(){ ceLayer.clearLayers(); for(const r of cleanEatz){ const m=L.marker([r.lat,r.lon],{icon:ceIcon,title:r.name||'Clean Eatz'}); const nm=r.name||'Clean Eatz'; m.bindPopup('<strong>'+nm+'</strong><br>'+r.lat.toFixed(5)+', '+r.lon.toFixed(5)); ceLayer.addLayer(m);} }
+function drawCleanEatz(){ ceLayer.clearLayers(); for(const r of cleanEatz){ const m=L.marker([r.lat,r.lon],{icon:ceIcon,title:r.name||'Clean Eatz'}); m.bindPopup('<strong>'+(r.name||'Clean Eatz')+'</strong>'); ceLayer.addLayer(m);} }
 
 function gatherSubtractors(){ const pts=[]; activeSubtractors.forEach(key=>{ const arr=subtractCache[key]; if(!arr) return; for(const p of arr){ pts.push(p);} }); return pts; }
 
 function updateHeatForDistance(miles){
   const subs = gatherSubtractors();
   let filtered = gymsRaw;
-  if(subs.length && miles>0){ filtered=[]; for(const g of gymsRaw){ let covered=false; for(const s of subs){ if(haversineMi(g.lat,g.lon,s.lat,s.lon) <= miles){ covered=true; break; } } if(!covered) filtered.push(g); } }
-  const pts = filtered.map(p => [p.lat, p.lon, HEAT_POINT_WEIGHT]);
+  if(subs.length && miles>0){
+    filtered=[];
+    for(const g of gymsRaw){ let covered=false; for(const s of subs){ if(haversineMi(g.lat,g.lon,s.lat,s.lon) <= miles){ covered=true; break; } } if(!covered) filtered.push(g); }
+  }
+  const pts = filtered.map(p => [p.lat, p.lon, 0.9]);
   if(gymsHeat) map.removeLayer(gymsHeat);
   gymsHeat = L.heatLayer(pts, HEAT_OPTIONS);
   if(document.getElementById('toggle-gyms').checked){ gymsHeat.addTo(map); }
@@ -131,30 +159,62 @@ function buildCompetitorSublayer(key){
       color: '#000', weight: 2,
       fillColor: '#facc15', fillOpacity: 0.95
     });
-    const nm = r.name || key; m.bindPopup('<strong>'+nm+'</strong><br>'+r.lat.toFixed(5)+', '+r.lon.toFixed(5));
+    const nm = r.name || key; m.bindPopup('<strong>'+nm+'</strong>');
     lg.addLayer(m);
   }
   compSublayers[key] = lg;
 }
 
-async function ensureLoaded(key){ if(subtractCache[key]) return; const url=DATASETS[key]; if(!url) return; const rows=await loadCsv(url); subtractCache[key]=rows.map(r=>{ const lat=Number(pickLat(r)), lon=Number(pickLon(r)); if(!Number.isFinite(lat)||!Number.isFinite(lon)) return null; return {lat,lon,name:r.name||r.Name||null}; }).filter(Boolean); if(['sweetgreen','justsalad','bolay','vitality','protein'].includes(key)){ buildCompetitorSublayer(key);} }
+async function ensureLoaded(key){
+  if(subtractCache[key]) return;
+  const url = DATASETS[key]; if(!url) return;
+  const rows = await loadCsv(url);
+  const parsed = [];
+  for(const r of rows){ const lat=pickLat(r), lon=pickLon(r); if(!Number.isFinite(lat)||!Number.isFinite(lon)) continue; parsed.push({lat,lon,name:pickName(r,key)}); }
+  console.log('Loaded', key, 'points:', parsed.length);
+  subtractCache[key] = parsed;
+  buildCompetitorSublayer(key);
+}
 
-async function setCompetitorsSubtract(on){ if(on){ for(const key of ['sweetgreen','justsalad','bolay','vitality','protein']){ activeSubtractors.add(key); await ensureLoaded(key);} } else { for(const key of ['sweetgreen','justsalad','bolay','vitality','protein']){ activeSubtractors.delete(key);} } updateHeatForDistance(Number(document.getElementById('dist-slider').value)); }
+async function setCompetitorsSubtract(on){ if(on){ for(const key of COMP_KEYS){ activeSubtractors.add(key); await ensureLoaded(key);} } else { for(const key of COMP_KEYS){ activeSubtractors.delete(key);} } updateHeatForDistance(Number(document.getElementById('dist-slider').value)); }
 async function setCleanEatzSubtract(on){ if(on){ activeSubtractors.add('cleanEatz'); if(!subtractCache['cleanEatz']) await ensureLoaded('cleanEatz'); } else { activeSubtractors.delete('cleanEatz'); } updateHeatForDistance(Number(document.getElementById('dist-slider').value)); }
 
 // Slider UI
 const slider = document.getElementById('dist-slider'); const readout=document.getElementById('miles-readout'); let debounce=null;
 slider.addEventListener('input', ()=>{ readout.textContent=slider.value; if(debounce) cancelAnimationFrame(debounce); debounce=requestAnimationFrame(()=> updateHeatForDistance(Number(slider.value))); });
 
-// View toggles (visibility only)
+// Layer visibility toggles
 document.getElementById('toggle-gyms').addEventListener('change', (e)=>{ if(!gymsHeat) return; if(e.target.checked) gymsHeat.addTo(map); else map.removeLayer(gymsHeat); });
 document.getElementById('toggle-ce').addEventListener('change', (e)=>{ if(e.target.checked) ceLayer.addTo(map); else map.removeLayer(ceLayer); });
-document.getElementById('toggle-competitors').addEventListener('change', async (e)=>{ if(e.target.checked){ compMasterLayer.addTo(map); for(const key of ['sweetgreen','justsalad','bolay','vitality','protein']){ if(!subtractCache[key]) await ensureLoaded(key); if(!compSublayers[key]) buildCompetitorSublayer(key); compSublayers[key].addTo(compMasterLayer);} } else { compMasterLayer.clearLayers(); map.removeLayer(compMasterLayer);} });
+document.getElementById('toggle-competitors').addEventListener('change', async (e)=>{
+  if(e.target.checked){
+    compMasterLayer.addTo(map);
+    for(const key of COMP_KEYS){ if(!subtractCache[key]) await ensureLoaded(key); if(!compSublayers[key]) buildCompetitorSublayer(key); compSublayers[key].addTo(compMasterLayer); }
+  } else {
+    compMasterLayer.clearLayers();
+    map.removeLayer(compMasterLayer);
+  }
+});
 
 (async function init(){
-  const gymsRows = await loadCsv(DATASETS.gyms); gymsRaw = gymsRows.map(r=>{ const lat=Number(pickLat(r)), lon=Number(pickLon(r)); return (Number.isFinite(lat)&&Number.isFinite(lon))?{lat,lon}:null; }).filter(Boolean);
-  const ceRows = await loadCsv(DATASETS.cleanEatz); cleanEatz = ceRows.map(r=>{ const lat=Number(pickLat(r)), lon=Number(pickLon(r)); if(!Number.isFinite(lat)||!Number.isFinite(lon)) return null; return {lat,lon,name:r.name||r.Name||null}; }).filter(Boolean); subtractCache['cleanEatz'] = cleanEatz.slice();
-  drawCleanEatz(); document.getElementById('miles-readout').textContent = slider.value; updateHeatForDistance(Number(slider.value));
+  // Gyms
+  const gymsRows = await loadCsv(DATASETS.gyms);
+  gymsRaw = gymsRows.map(r=>{ const lat=pickLat(r), lon=pickLon(r); return (Number.isFinite(lat)&&Number.isFinite(lon))?{lat,lon}:null; }).filter(Boolean);
+
+  // Clean Eatz
+  const ceRows = await loadCsv(DATASETS.cleanEatz);
+  const ceParsed = [];
+  for(const r of ceRows){ const lat=pickLat(r), lon=pickLon(r); if(!Number.isFinite(lat)||!Number.isFinite(lon)) continue; ceParsed.push({lat,lon,name:pickName(r,'Clean Eatz')}); }
+  console.log('Loaded cleanEatz points:', ceParsed.length);
+  cleanEatz = ceParsed.slice();
+  subtractCache['cleanEatz'] = ceParsed.slice();
+  drawCleanEatz();
+
+  // Initial heat
+  document.getElementById('miles-readout').textContent = slider.value;
+  updateHeatForDistance(Number(slider.value));
+
+  // Subtract toggles
   document.getElementById('sub-ce').addEventListener('change', async (e)=>{ await setCleanEatzSubtract(e.target.checked); });
   document.getElementById('sub-comps').addEventListener('change', async (e)=>{ await setCompetitorsSubtract(e.target.checked); });
 })();
