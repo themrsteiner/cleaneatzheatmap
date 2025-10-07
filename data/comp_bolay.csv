@@ -1,22 +1,22 @@
-brand,name,num,street,city,state,zipc,phone,website,lat,lon,coming_soon,source_url,@lat,@lon
-Bolay,BOLAY Boca Raton - Clint Moore and Military,5030,Champion Blvd G1D,Boca Raton,FL,33496,,https://www.bolay.com/locations/boca-raton---clint-moore-and-military,,,,https://www.bolay.com/locations/boca-raton---clint-moore-and-military,,
-Bolay,BOLAY Brandon,1544,W. Brandon Blvd. Unit 102,Brandon,,33510,,https://www.bolay.com/locations/brandon,,,,https://www.bolay.com/locations/brandon,,
-Bolay,BOLAY Coral Springs,9204,Wiles Road,Coral Springs,,33067,,https://www.bolay.com/locations/coral-springs,,,,https://www.bolay.com/locations/coral-springs,26.2871009,-80.2493508
-Bolay,"BOLAY Fort Lauderdale, FL",1730,North Federal Highway,Fort lauderdale,,33305,,https://www.bolay.com/locations/fort-lauderdale-fl,,,,https://www.bolay.com/locations/fort-lauderdale-fl,26.150367,-80.1190348
-Bolay,BOLAY Gainesville - Butler Plaza,2905,SW 42nd St. Suite 70,Gainesville,,32608,,https://www.bolay.com/locations/gainesville---butler-plaza,,,,https://www.bolay.com/locations/gainesville---butler-plaza,,
-Bolay,BOLAY Gainesville - University,50,NW 13th St. Suite #20,Gainesville,,32603,,https://www.bolay.com/locations/gainesville---university,,,,https://www.bolay.com/locations/gainesville---university,,
-Bolay,BOLAY Hollywood Hills,3255,Hollywood Blvd. Suite 1,Hollywood,,33021,,https://www.bolay.com/locations/hollywood-hills,,,,https://www.bolay.com/locations/hollywood-hills,,
-Bolay,BOLAY Jupiter,1697,West Indiantown Rd. Suite 1,Jupiter,,33458,,https://www.bolay.com/locations/jupiter,,,,https://www.bolay.com/locations/jupiter,,
-Bolay,BOLAY Lake Nona,12711,Narcoossee Rd. #120,Lake Nona,,32832,,https://www.bolay.com/locations/lake-nona,,,,https://www.bolay.com/locations/lake-nona,,
-Bolay,BOLAY Miami Lakes,15141,NW 67th Ave.,Miami Lakes,,33014,,https://www.bolay.com/locations/miami-lakes,,,,https://www.bolay.com/locations/miami-lakes,25.9093538,-80.3082836
-Bolay,BOLAY Oviedo,1079,Alafaya Trail Suite 1203,Oviedo,,32765,,https://www.bolay.com/locations/oviedo,,,,https://www.bolay.com/locations/oviedo,,
-Bolay,BOLAY Palm Beach Gardens - Alton Town Center,5320,Donald Ross Rd. Suite 100,Palm Beach Gardens,,33418,,https://www.bolay.com/locations/palm-beach-gardens---alton-town-center,,,,https://www.bolay.com/locations/palm-beach-gardens---alton-town-center,,
-Bolay,BOLAY Palm Beach Gardens - Northlake Blvd,3333,Northlake Blvd. #8,Palm Beach Gardens,,33403,,https://www.bolay.com/locations/palm-beach-gardens---northlake-blvd,,,,https://www.bolay.com/locations/palm-beach-gardens---northlake-blvd,,
-Bolay,BOLAY Pembroke Pines - Hiatus Rd.,151,N Hiatus Road,Pembroke Pines,,33026,,https://www.bolay.com/locations/pembroke-pines---hiatus-rd-,,,,https://www.bolay.com/locations/pembroke-pines---hiatus-rd-,26.009084,-80.2962325
-Bolay,BOLAY Pembroke Pines - Pines Blvd. & I-75,14810,Pines Blvd,Pembroke Pines,,33027,,https://www.bolay.com/locations/pembroke-pines---pines-blvd-amp-i-75,,,,https://www.bolay.com/locations/pembroke-pines---pines-blvd-amp-i-75,26.0079033,-80.3448815
-Bolay,BOLAY Pinecrest,7880,SW 104th Street #101,Miami,,33156,,https://www.bolay.com/locations/pinecrest,,,,https://www.bolay.com/locations/pinecrest,25.6735433,-80.3214459
-Bolay,BOLAY South Tampa - DRIVE THRU,402,S Dale Mabry Hwy.,Tampa,,33609,,https://www.bolay.com/locations/south-tampa---drive-thru,,,,https://www.bolay.com/locations/south-tampa---drive-thru,27.9410902,-82.5056281
-Bolay,BOLAY Wellington,250,South State Road 7 100,Royal Palm Beach,,33414,,https://www.bolay.com/locations/wellington,,,,https://www.bolay.com/locations/wellington,,
-Bolay,BOLAY West Boca Raton - Uptown,9560,Glades Rd. Suite 130,Boca Raton,,33428,,https://www.bolay.com/locations/west-boca-raton---uptown,,,,https://www.bolay.com/locations/west-boca-raton---uptown,,
-Bolay,BOLAY West Palm Beach,1880,Okeechobee Blvd. Suite A,West Palm Beach,,33409,,https://www.bolay.com/locations/west-palm-beach,,,,https://www.bolay.com/locations/west-palm-beach,,
-Bolay,BOLAY Winter Park,1971,Aloma Ave,Winter Park,,32792,,https://www.bolay.com/locations/winter-park,,,,https://www.bolay.com/locations/winter-park,28.6012527,-81.3256861
+﻿brand,name,num,street,city,state,zipc,@lat,@lon
+Bolay,BOLAY Boca Raton - Clint Moore and Military,5030,Champion Blvd,Boca Raton,FL,33496,26.4103784,-80.1222964
+Bolay,BOLAY Brandon,1544,W. Brandon Blvd.,Brandon,FL,33510,27.9376754,-82.3075571
+Bolay,BOLAY Coral Springs,9204,Wiles Road,Coral Springs,FL,33067,26.2871009,-80.2493508
+Bolay,"BOLAY Fort Lauderdale, FL",1730,North Federal Highway,Fort lauderdale,FL,33305,26.150367,-80.1190348
+Bolay,BOLAY Gainesville - Butler Plaza,2905,SW 42nd St.,Gainesville,FL,32608,29.6274402,-82.387652
+Bolay,BOLAY Gainesville - University,50,NW 13th St.,Gainesville,FL,32603,29.6530398,-82.3393988
+Bolay,BOLAY Hollywood Hills,3255,Hollywood Blvd.,Hollywood,FL,33021,26.0111842,-80.1748607
+Bolay,BOLAY Jupiter,1697,West Indiantown Rd.,Jupiter,FL,33458,26.9342742,-80.1240887
+Bolay,BOLAY Lake Nona,12711,Narcoossee Rd.,Lake Nona,FL,32832,28.4163636,-81.2431299
+Bolay,BOLAY Miami Lakes,15141,NW 67th Ave.,Miami Lakes,FL,33014,25.9093538,-80.3082836
+Bolay,BOLAY Oviedo,1079,Alafaya Trail,Oviedo,FL,32765,28.6545946,-81.2088104
+Bolay,BOLAY Palm Beach Gardens - Alton Town Center,5320,Donald Ross Rd,Palm Beach Gardens,FL,33418,26.8820562,-80.0732654
+Bolay,BOLAY Palm Beach Gardens - Northlake Blvd,3333,Northlake Blvd.,Palm Beach Gardens,FL,33403,26.8085439,-80.0883673
+Bolay,BOLAY Pembroke Pines - Hiatus Rd.,151,N Hiatus Road,Pembroke Pines,FL,33026,26.009084,-80.2962325
+Bolay,BOLAY Pembroke Pines - Pines Blvd. & I-75,14810,Pines Blvd,Pembroke Pines,FL,33027,26.0079033,-80.3448815
+Bolay,BOLAY Pinecrest,7880,SW 104th Street,Miami,FL,33156,25.673554,-80.3209726
+Bolay,BOLAY South Tampa - DRIVE THRU,402,S Dale Mabry Hwy.,Tampa,FL,33609,27.9410902,-82.5056281
+Bolay,BOLAY Wellington,250,South State Road,Royal Palm Beach,FL,33414,,
+Bolay,BOLAY West Boca Raton - Uptown,9560,Glades Rd.,Boca Raton,FL,33428,26.3663985,-80.1965395
+Bolay,BOLAY West Palm Beach,1880,Okeechobee Blvd.,West Palm Beach,FL,33409,26.7062642,-80.0796462
+Bolay,BOLAY Winter Park,1971,Aloma Ave,Winter Park,FL,32792,28.6012527,-81.3256861
